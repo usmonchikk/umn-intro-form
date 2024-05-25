@@ -28,10 +28,10 @@ body{
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial",sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color:#fff;
+  background-color:var(--body-bg);
 color:var(--text-color);
 }
 
@@ -41,9 +41,9 @@ img{
 }
 .container{
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1192px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -51,4 +51,6 @@ img{
 /* MAinContent */
 .main-content{
  flex-grow: 1;
+ padding-top: 80px;
+ padding-bottom: 80px;
 }
